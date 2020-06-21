@@ -1,0 +1,54 @@
+.card-wrapp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url('../assets/imgs/kisspng-bridesmaid-bachelorette-party-bachelor-party-puert-bride-logo-5b1fcec3786fa8.1551310315288112034933.png');
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: beige;
+  font-family: cursive;
+}
+
+.describe {
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  padding: 3vh 10vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stores a {
+  display: block;
+}
+
+.stores a:last-child {
+  margin-top: 1vh;
+}
+
+.stores {
+  width: 15%;
+}
+
+.qr-code {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.qr-code img {
+  width: 50%;
+  height: auto;
+}
